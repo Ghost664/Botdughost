@@ -502,7 +502,7 @@ case 'lofi':
 					if (!isOwner) return reply(mess.only.ownerB)
 					client.blockUser (`${body.slice(7)}@c.us`, "add")
 					client.sendMessage(from, `DEI BLOCK MEMU KKKK ${body.slice(7)}@c.us`, text)
-					break.
+					break
                     case 'desbloquear':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isOwner) return reply(mess.only.ownerB)
